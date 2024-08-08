@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+.container {
+    position: fixed;
+    display: none;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: max-content;
+    min-height: 3vh;
+    text-align: center;
+    background: rgba(34, 0, 56, 0.9);
+    font-size: 1.7vh;
+    line-height: 3vh;
+    color: white;
+    border-bottom-left-radius: 0.5vh;
+    border-bottom-right-radius: 0.5vh;
+}
+
+.container-timer {
+    margin: auto auto auto 0.5vw;
+    background-color: rgba(60, 0, 100, 0.9);
+    border-radius: 0.5vh;
+    height: max-content;
+    width: max-content;
+}
+
+.container-timer span {
+    padding: 0.5vw;
+}
+
+.container-text {
+    padding: 0.5vw;
+}
